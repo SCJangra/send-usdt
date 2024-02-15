@@ -23,6 +23,7 @@ struct Args {
 	#[arg(short, long)]
 	value: u128,
 
+	/// Infura access key.
 	#[arg(short, long)]
 	infura_key: String,
 
