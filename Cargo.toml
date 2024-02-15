@@ -1,0 +1,18 @@
+[package]
+name = "send-usdt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# sp-application-crypto = { version = "30.0.0" }
+alloy-sol-types = "0.6"
+alloy-primitives = "0.6"
+ethereum-tx-sign = "6.1"
+clap = "4.5"
+clap_derive = "4.5"
+ethereum = "0.15"
+ethereum-types = "0.14"
+ethers = "2.0"
+tokio = { version = "1.36", features = ["macros", "rt-multi-thread"] }
